@@ -1,0 +1,4 @@
+// include '..:..:cpp:Android-CMake:hello-jni'
+include ':Android-CMake'
+project(':Android-CMake').projectDir = new File(settingsDir, '../../cpp/Android-CMake')
+include ':Android-CMake:hello-jni'
